@@ -40,10 +40,14 @@ git clone https://github.com/Ghaziyassine/Hotel-Management.git
 ```
 ### Utiliser Docker
 - Build the Docker images :
+```bash
 docker-compose build
+```
 
 - Run the Docker containers :
+```bash
 docker-compose up
+```
 ![Capture d’écran 2025-01-14 160830](https://github.com/user-attachments/assets/3a80ed89-b3a2-46f6-9344-a3b6886afb51)
 
 - Connect to phpMyadmin server on port 8081 ( user:"root"-password:"root") and restart the backend from Docker Desktop
@@ -51,12 +55,20 @@ docker-compose up
 - cd Base de donnée: 
   Créez une base de données "mazagan" où vous importez la bdd ci-dessus hotel.sql
 (dans cette base de données vous trouvez les accés d'un utilisateur par défaut dont le login : user@user et mdp : user@user et un admin par défaut dont le login : admin@admin et mdp: admin@admin)
-- cd back-Hotel-MazagaO :
-cmd --> mvn clean install
-    --> mvn spring-boot:run
-- cd hotel-front :
-cmd --> npm install
-    --> npm run dev
+- Backend:
+  ```bash
+   mvn clean install
+   ```
+   ```bash
+     mvn spring-boot:run
+   ```
+- Frontend:
+  ```bash
+  npm install
+  ```
+  ```bash
+    npm run dev
+  ```
 - Ouvrir l'url suivant : http://localhost:5173/
 
 ## Auteurs
