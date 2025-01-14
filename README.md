@@ -35,7 +35,9 @@ image-------------------------------------------
 ## Configuration
 
 ### Cloner le projet depuis GitHub
-git clone https://github.com/Ghaziyassine/Hotel-Management
+```bash
+git clone https://github.com/Ghaziyassine/Hotel-Management.git
+```
 ### Utiliser Docker
 - Build the Docker images :
 docker-compose build
