@@ -42,7 +42,8 @@ docker-compose build
 
 - Run the Docker containers :
 docker-compose up
-ILMAGE------------------------------------------------------------------
+![Capture d’écran 2025-01-14 160830](https://github.com/user-attachments/assets/3a80ed89-b3a2-46f6-9344-a3b6886afb51)
+
 - Connect to phpMyadmin server on port 8081 ( user:"root"-password:"root") and restart the backend from Docker Desktop
 ### Utiliser un deploiment local
 - cd Base de donnée: 
